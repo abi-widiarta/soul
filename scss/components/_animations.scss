@@ -1,0 +1,44 @@
+// PULSE ANIMATION
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.4);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse-title {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+    filter: drop-shadow(0 8px 5px rgba(black, 0.1));
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes move-top {
+  0% {
+    top: 20rem;
+  }
+
+  50% {
+    top: 18rem;
+  }
+
+  100% {
+    top: 20rem;
+  }
+}

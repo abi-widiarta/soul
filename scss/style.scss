@@ -1,0 +1,12 @@
+// IMPORT CUSTOMIZE BOOTSTRAP
+@use "custom";
+
+// IMPORT COMPONENTS
+@use "components/mixins";
+@use "components/typography";
+@use "components/animations";
+
+// IMPORT SECTIONS
+@use "sections/intro.scss";
+@use "sections/navbar.scss";
+@use "sections/characters.scss";

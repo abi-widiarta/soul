@@ -1,0 +1,7 @@
+@use "../custom" as *;
+
+// Linear gradient three color
+
+@mixin gradient {
+  background: linear-gradient(to right, rgba($success, 0.95), rgba($primary, 0.95), rgba($secondary, 0.95));
+}

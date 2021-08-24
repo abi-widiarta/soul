@@ -1,0 +1,13 @@
+// MY CUSTOM THEME
+
+$green: #84ffc9;
+$purple: #aab2ff;
+$pink: #eca0ff;
+
+// COLOR THEME OVERIDE
+
+$primary: $purple;
+$secondary: $pink;
+$success: $green;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
